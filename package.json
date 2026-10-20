@@ -1,0 +1,17 @@
+{
+  "name": "lab3-payment-services",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PTIT INT1448 Lab 3 - Fee Service and simulated Bank Service",
+  "main": "fee.js",
+  "scripts": {
+    "bank": "node bank.js",
+    "fee": "node fee.js",
+    "load": "node test-load.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
